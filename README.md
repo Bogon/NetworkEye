@@ -1,5 +1,7 @@
 # NetworkEye
 
+[![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
+
 [![License](https://img.shields.io/cocoapods/l/NetworkEye.svg?style=flat)](http://cocoapods.org/pods/NetworkEye)
 [![Platform](https://img.shields.io/cocoapods/p/NetworkEye.svg?style=flat)](http://cocoapods.org/pods/NetworkEye)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
@@ -7,7 +9,7 @@
 NetworkEye is a network monitor,automatic catch the request and response infomation of all kinds of request send
 
 ## Family
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/Bogon/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Book & Principle
 
@@ -41,13 +43,13 @@ NetworkEye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "NetworkEye"
+pod 'NetworkEye'
 ```
 ### Carthage
 Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add NetworkEye to your Cartfile:
 
 ``` 
-github "zixun/NetworkEye"
+github 'Bogon/NetworkEye'
 ```
 
 ## Author
