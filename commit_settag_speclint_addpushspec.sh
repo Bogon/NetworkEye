@@ -24,7 +24,7 @@ echo '+++++++++++++++++++++++++++ spec lint successful ++++++++++++++++++++'
 echo '+++++++++++++++++++++++++++ push spec ++++++++++++++++++++'
 pod repo add NetworkEye https://github.com/Bogon/CCSpec
 pod repo add NetworkEye https://github.com/CocoaPods/Specs
-pod repo push NetworkEye NetworkEye.podspec --sources='https://github.com/Bogon/CCSpec.git, https://github.com/CocoaPods/Specs.git' --allow-warnings
+pod repo push NetworkEye NetworkEye.swift.podspec --sources='https://github.com/Bogon/CCSpec.git, https://github.com/CocoaPods/Specs.git' --allow-warnings
 
 echo '+++++++++++++++++++++++++++ push spec successful ++++++++++++++++++++'
 
